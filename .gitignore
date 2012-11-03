@@ -1,4 +1,13 @@
-*\.DS_STORE
-*\.sublime*
+# MAC
+*.DS_STORE
+*.sublime*
+
+# Sublime Text
 ISBC-Quinielas.sublime-workspace
 ISBC-Quinielas.sublime-project
+
+# Eclipse
+.classpath
+.project
+.settings/
+bin/
