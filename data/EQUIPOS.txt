@@ -1,0 +1,12 @@
+EQUIPOS
+
+Rayo Vallecano -> Rayo
+Real Madrid -> Madrid
+Dptivo. Coruña -> Depor
+Sporting Gijón -> Sporting
+At. Madrid -> Atleti
+Real Sociedad -> RealSociedad
+Ath. Bilbao -> Bilbao
+Rac. Santander -> Santander
+Bilbao B -> BilbaoB
+Rec. Huelva -> Huelva
