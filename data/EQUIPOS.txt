@@ -10,3 +10,14 @@ Ath. Bilbao -> Bilbao
 Rac. Santander -> Santander
 Bilbao B -> BilbaoB
 Rec. Huelva -> Huelva
+Gimn. Tarragona -> Nastic
+Barcelona B
+Villarreal B
+Sevilla B
+Madrid B
+Malaga B
+Atleti B
+Mallorca B
+Las Palmas -> Palmas
+Real Union -> Union
+

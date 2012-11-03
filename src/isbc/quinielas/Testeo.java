@@ -49,22 +49,25 @@ public class Testeo {
 			BufferedReader br = new BufferedReader(fr);
 			BufferedWriter bw;
 
-			for (int i = 1995; i<2013; i++){
+			int year = 2012;
+			
+			for (int i = year; i<2013; i++){
 
 				String pathname = "./data/season_" + i + ".txt";
 				FileWriter fw = new FileWriter(pathname);
 				bw = new BufferedWriter(fw);
-
-				int currentSeason = i;
-				while (currentSeason == i){
-					line = br.readLine();
-					currentSeason = Integer.valueOf(line.substring(0, 4));
+				br.readLine();
+				int currentSeason = Integer.valueOf(line.substring(0, 4));
+				while (currentSeason < year){
+					br.readLine();
+				}
+				currentSeason = Integer.valueOf(line.substring(0, 4));
+				while (currentSeason == year){
 					System.out.println("season: " + currentSeason);
-					if (currentSeason == i){
-						System.out.println("line: " + line);
-						bw.write(line);
-						bw.write("\n");
-					}
+					System.out.println("line: " + line);
+					bw.write(line);
+					bw.write("\n");
+					currentSeason = Integer.valueOf(line.substring(0, 4));
 				}
 				bw.close();
 			}
@@ -74,6 +77,6 @@ public class Testeo {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		File data = new File("./data/baseData.txt");
-		//fileSpliter(data);
+		fileSpliter(data);
 	}
 }
