@@ -1,6 +1,3 @@
-31063 partidos encontrados:
-
-TEMPORADA DIVISION JORNADA               PARTIDO
 1995-1996    1       1     Rayo   Madrid      1-5
 1995-1996    1       1     Zaragoza         Oviedo           1-0
 1995-1996    1       1     Merida           Betis            1-1
@@ -843,10 +840,6 @@ TEMPORADA DIVISION JORNADA               PARTIDO
 1995-1996    2      38     Toledo           Logrones         1-2
 1995-1996    2      38     Villarreal       Leganes          0-1
 1995-1996    2      38     MadridB    Almeria          1-1
-1995-1996  Promocion 1/2  Mallorca         Rayo   1-0
-1995-1996  Promocion 1/2  Rayo   Mallorca         2-0
-1995-1996  Promocion 1/2  Extremadura      Albacete         1-0
-1995-1996  Promocion 1/2  Albacete         Extremadura      0-1
 1996-1997    1       1     Tenerife         Compostela       6-0
 1996-1997    1       1     Zaragoza         Logrones         2-2
 1996-1997    1       1     RealSociedad    Sevilla          1-0
@@ -1689,8 +1682,6 @@ TEMPORADA DIVISION JORNADA               PARTIDO
 1996-1997    2      38     Almeria          Ourense          2-3
 1996-1997    2      38     Leganes          Albacete         2-1
 1996-1997    2      38     MadridB    Merida           4-0
-1996-1997  Promocion 1/2  Mallorca         Rayo   1-0
-1996-1997  Promocion 1/2  Rayo   Mallorca         2-1
 1997-1998    1       1     Oviedo           Merida           2-0
 1997-1998    1       1     Celta            Zaragoza         2-1
 1997-1998    1       1     Bilbao      Espanyol         1-3
@@ -2533,10 +2524,6 @@ TEMPORADA DIVISION JORNADA               PARTIDO
 1997-1998    2      42     Levante          Villarreal       1-2
 1997-1998    2      42     Osasuna          Rayo   1-3
 1997-1998    2      42     Numancia         Hercules         0-0
-1997-1998  Promocion 1/2  Villarreal       Compostela       0-0
-1997-1998  Promocion 1/2  Compostela       Villarreal       1-1
-1997-1998  Promocion 1/2  Oviedo           Palmas       3-0
-1997-1998  Promocion 1/2  Palmas       Oviedo           3-1
 1998-1999    1       1     RealSociedad    Oviedo           3-3
 1998-1999    1       1     Espanyol         Tenerife         2-1
 1998-1999    1       1     Salamanca        Mallorca         0-0
@@ -3379,10 +3366,6 @@ TEMPORADA DIVISION JORNADA               PARTIDO
 1998-1999    2      42     Numancia         Huelva      3-0
 1998-1999    2      42     Compostela       Ourense          3-0
 1998-1999    2      42     Malaga           Sevilla          0-1
-1998-1999  Promocion 1/2  Villarreal       Sevilla          0-2
-1998-1999  Promocion 1/2  Sevilla          Villarreal       1-0
-1998-1999  Promocion 1/2  Extremadura      Rayo   0-2
-1998-1999  Promocion 1/2  Rayo   Extremadura      2-0
 1999-2000    1       1     Atleti       Rayo   0-2
 1999-2000    1       1     Sevilla          RealSociedad    2-2
 1999-2000    1       1     Oviedo           Celta            1-0
@@ -13487,12 +13470,6 @@ TEMPORADA DIVISION JORNADA               PARTIDO
 2010-2011    2      42     Rayo   BarcelonaB      2-3
 2010-2011    2      42     Celta            Cartagena        3-0
 2010-2011    2      42     Elche            Xerez            4-1
-2010-2011  Promocion 1/2  Celta            Granada          1-0
-2010-2011  Promocion 1/2  Granada          Celta            1-0
-2010-2011  Promocion 1/2  Valladolid       Elche            1-0
-2010-2011  Promocion 1/2  Elche            Valladolid       3-1
-2010-2011  Promocion 1/2  Granada          Elche            0-0
-2010-2011  Promocion 1/2  Elche            Granada          1-1
 2011-2012    1       1     Osasuna          Valencia         1-1
 2011-2012    1       1     RealSociedad    Atleti       0-4
 2011-2012    1       1     Villarreal       Sporting   3-0
@@ -14335,12 +14312,6 @@ TEMPORADA DIVISION JORNADA               PARTIDO
 2011-2012    2      42     Huesca           Hercules         1-2
 2011-2012    2      42     VillarrealB     Depor   0-1
 2011-2012    2      42     Huelva      Cartagena        1-2
-2011-2012  Promocion 1/2  Hercules         Alcorcon         1-1
-2011-2012  Promocion 1/2  Alcorcon         Hercules         0-0
-2011-2012  Promocion 1/2  Cordoba          Valladolid       0-0
-2011-2012  Promocion 1/2  Valladolid       Cordoba          3-0
-2011-2012  Promocion 1/2  Alcorcon         Valladolid       0-1
-2011-2012  Promocion 1/2  Valladolid       Alcorcon         1-1
 2012-2013    1       1     Bilbao      Betis            3-5
 2012-2013    1       1     Levante          Atleti       1-1
 2012-2013    1       1     Zaragoza         Valladolid       0-1
