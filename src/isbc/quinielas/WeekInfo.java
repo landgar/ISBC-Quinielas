@@ -1,6 +1,6 @@
 package isbc.quinielas;
 
-public class TeamInfo {
+public class WeekInfo {
 	//TOTAL
 	private int totalPosition;
 	private int totalPlayedGames;
@@ -29,8 +29,7 @@ public class TeamInfo {
 	private int awayReceivedGoals;
 	private int awayPoints;
 	
-	//TODO
-	public TeamInfo(
+	public WeekInfo(
 					int totalPosition, int totalPlayedGames, int totalWinnedGames, int totalDrawedGames, 
 					int totalLostGames, int totalScoredGoals, int totalReceivedGoals, int totalPoints, 
 					int homePosition, int homePlayedGames, int homeWinnedGames, int homeDrawedGames, 

@@ -35,7 +35,7 @@ public class Case {
     private int homeDiff;
     private int awayDiff;
 	
-    public Case (String season, String division, String week, String localTeam, String awayTeam, String result, WeekClasification wk){
+    public Case (String season, String division, String week, String localTeam, String awayTeam, String result, SeasonInfo wk){
     	StringTokenizer stSeason = new StringTokenizer(division, "-");
     	this.season = Integer.valueOf(stSeason.nextToken().substring(2));
     	this.firstDiv = division == "1»"? true : false;
