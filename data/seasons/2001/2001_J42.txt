@@ -1,0 +1,11 @@
+2001-2002    2      42     Sporting   Huelva      3-1
+2001-2002    2      42     Badajoz          Salamanca        2-2
+2001-2002    2      42     Numancia         Levante          1-2
+2001-2002    2      42     Albacete         Leganes          1-2
+2001-2002    2      42     Cordoba          Ferrol           1-1
+2001-2002    2      42     Elche            Eibar            0-0
+2001-2002    2      42     Murcia           Jaen             3-0
+2001-2002    2      42     Atleti       Burgos           1-1
+2001-2002    2      42     Ejido            Santander   1-0
+2001-2002    2      42     Nastic  Extremadura      3-1
+2001-2002    2      42     Xerez            Oviedo           2-1

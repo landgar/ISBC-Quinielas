@@ -13,11 +13,13 @@ import java.util.StringTokenizer;
 
 public class Testeo {
 	
+	private static final String BASE_DATA = "./data/baseData.txt";
 	
-	protected static void fileTesting(File file){
+	protected static void fileTesting(){
 		try {
 			String line = "";
 			int lineNumber = 0;
+			File file = new File(BASE_DATA);
 			FileReader fr = new FileReader(file);
 			BufferedReader br = new BufferedReader(fr);
 			// Important data begins at line 3
@@ -35,18 +37,13 @@ public class Testeo {
 				}
 			}
 				
-		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
+		} catch (Exception e) {}
 	}
 	
-	protected static void fileSpliter(File file){
+	protected static void fileSpliter(){
 		try {
 			String line = "";
+			File file = new File(BASE_DATA);
 			FileReader fr = new FileReader(file);
 			BufferedReader br = new BufferedReader(fr);
 			BufferedWriter bw;
@@ -55,7 +52,7 @@ public class Testeo {
 			
 			for (int i = year; i<2013; i++){
 
-				String pathname = "./data/season_" + i + ".txt";
+				String pathname = "./data/seasons/season_" + i + ".txt";
 				FileWriter fw = new FileWriter(pathname);
 				bw = new BufferedWriter(fw);
 				br.readLine();
@@ -125,16 +122,73 @@ public class Testeo {
 				}
 			}
 			
-		} catch (Exception e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}		
+		} catch (Exception e) {}		
+	}
+	
+	protected static void matchesForWeek(int season){
+		try {
+			File file = new File("./data/seasons/" + season + "/season_" + season + ".txt");
+			FileReader fr = new FileReader(file);
+			BufferedReader br = new BufferedReader(fr);
+			StringTokenizer st;
+			String line = br.readLine();
+
+			int maxWeek = 0, possibleWeek;
+			while (line != null) {
+				st = new StringTokenizer(line);
+				st.nextToken(); st.nextToken();
+				possibleWeek = Integer.valueOf(st.nextToken());
+				if (possibleWeek > maxWeek){
+					maxWeek = possibleWeek;
+				}
+				line = br.readLine();
+			}
+			
+			for (int week = 1; week <= maxWeek; week++) {
+				file = new File("./data/seasons/" + season + "/season_" + season + ".txt");
+				fr = new FileReader(file);
+				br = new BufferedReader(fr);
+				
+				line = br.readLine();
+				String path;
+				if (week < 10){
+					path = "./data/seasons/" + season + "/" + season + "_J0" + week + ".txt";
+				} else {
+					path = "./data/seasons/" + season + "/" + season + "_J" + week + ".txt";
+				}
+				FileWriter fw = new FileWriter(path);
+				BufferedWriter bw = new BufferedWriter(fw);
+				
+				while (line != null){
+					st = new StringTokenizer(line);
+					//Discard season and division
+					st.nextToken(); st.nextToken();
+				
+					if (Integer.valueOf(st.nextToken()) == week) {
+						bw.write(line + "\n");
+					}
+					line = br.readLine();
+				}
+				bw.close();
+			}
+		} catch (Exception e) {}
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		//split the whole data in seasons
+		// fileSpliter();
+		
+		// teams by season
+		/*
 		for (int i = 1995; i < 2013; i++){
 			teamsInSeason(i);
-		}
+		}*/
+		
+		//separate the matches for season and week
+		// path example: ./data/seasons/xxxx/xxxx_JYY.txt
+		/*
+		for (int i= 1995; i < 2013; i++){
+			matchesForWeek(i);
+		}*/
 	}
 }

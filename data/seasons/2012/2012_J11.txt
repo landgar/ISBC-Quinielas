@@ -1,0 +1,11 @@
+2012-2013    2      11     Ponferradina     Hercules         1-0
+2012-2013    2      11     Guadalajara      Palmas       2-3
+2012-2013    2      11     Sabadell         Cordoba          1-1
+2012-2013    2      11     MadridB    Sporting   2-4
+2012-2013    2      11     Almeria          Huesca           1-0
+2012-2013    2      11     BarcelonaB      Huelva      2-3
+2012-2013    2      11     Villarreal       Mirandes         2-0
+2012-2013    2      11     Girona           Numancia         3-1
+2012-2013    2      11     Alcorcon         Murcia           1-0
+2012-2013    2      11     Elche            Santander   1-0
+2012-2013    2      11     Xerez            Lugo             1-0

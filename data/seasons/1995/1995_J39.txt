@@ -1,0 +1,11 @@
+1995-1996    1      39     Bilbao      Albacete         2-2
+1995-1996    1      39     Tenerife         RealSociedad    1-0
+1995-1996    1      39     Salamanca        Santander   5-0
+1995-1996    1      39     Compostela       Atleti       1-3
+1995-1996    1      39     Valencia         Sporting   1-0
+1995-1996    1      39     Barcelona        Sevilla          1-1
+1995-1996    1      39     Betis            Espanyol         2-3
+1995-1996    1      39     Oviedo           Celta            1-1
+1995-1996    1      39     Madrid      Depor   1-0
+1995-1996    1      39     Rayo   Valladolid       0-2
+1995-1996    1      39     Zaragoza         Merida           3-1

@@ -1,0 +1,11 @@
+1996-1997    1      40     Madrid      Extremadura      5-0
+1996-1997    1      40     Celta            Bilbao      0-2
+1996-1997    1      40     Depor   Valladolid       0-2
+1996-1997    1      40     Hercules         Barcelona        2-1
+1996-1997    1      40     Betis            Sporting   0-1
+1996-1997    1      40     Rayo   Valencia         3-1
+1996-1997    1      40     Oviedo           Sevilla          1-0
+1996-1997    1      40     Espanyol         Logrones         5-1
+1996-1997    1      40     Santander   Compostela       2-2
+1996-1997    1      40     RealSociedad    Tenerife         3-0
+1996-1997    1      40     Zaragoza         Atleti       2-3

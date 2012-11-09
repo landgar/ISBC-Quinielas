@@ -1,0 +1,11 @@
+2000-2001    2      41     Murcia           Elche            0-1
+2000-2001    2      41     Eibar            Salamanca        1-3
+2000-2001    2      41     Extremadura      Sevilla          1-1
+2000-2001    2      41     Tenerife         Lleida           3-2
+2000-2001    2      41     UnivPalmas  Leganes          2-1
+2000-2001    2      41     Cordoba          Albacete         1-4
+2000-2001    2      41     Atleti       Sporting   1-0
+2000-2001    2      41     Badajoz          Getafe           2-2
+2000-2001    2      41     Ferrol           Levante          1-1
+2000-2001    2      41     Betis            Huelva      1-0
+2000-2001    2      41     Compostela       Jaen             0-0

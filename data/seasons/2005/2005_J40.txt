@@ -1,0 +1,11 @@
+2005-2006    2      40     Almeria          MadridB    3-2
+2005-2006    2      40     Castellon        MalagaB         2-2
+2005-2006    2      40     Numancia         Huelva      0-3
+2005-2006    2      40     Xerez            Nastic  0-0
+2005-2006    2      40     Hercules         Albacete         2-1
+2005-2006    2      40     Granada74       Murcia           1-0
+2005-2006    2      40     Tenerife         Elche            0-0
+2005-2006    2      40     Sporting   Ferrol           3-1
+2005-2006    2      40     Valladolid       Ejido            0-1
+2005-2006    2      40     Eibar            Levante          1-1
+2005-2006    2      40     Lorca            Lleida           1-2

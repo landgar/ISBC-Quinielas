@@ -1,0 +1,11 @@
+1999-2000    2      42     AtletiB     Merida           0-0
+1999-2000    2      42     Leganes          Toledo           1-2
+1999-2000    2      42     Osasuna          Huelva      2-1
+1999-2000    2      42     Compostela       Sporting   1-1
+1999-2000    2      42     Cordoba          Tenerife         2-1
+1999-2000    2      42     Palmas       Levante          2-1
+1999-2000    2      42     Logrones         Villarreal       1-0
+1999-2000    2      42     Lleida           Elche            5-2
+1999-2000    2      42     Salamanca        Eibar            2-1
+1999-2000    2      42     Albacete         Getafe           0-1
+1999-2000    2      42     Extremadura      Badajoz          2-2

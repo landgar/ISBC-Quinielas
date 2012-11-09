@@ -9,18 +9,23 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.StringTokenizer;
 
+import javax.swing.plaf.basic.DragRecognitionSupport.BeforeDrag;
+
 public class SeasonInfo {
 	private int season;
 	private HashMap<String, HashMap<Integer, WeekInfo>> teams;
 	
 	public SeasonInfo(int season){
 		this.season = season;
-		File file = new File("./data/seasons/season_" + season + ".txt");
 		
-		fillTeams(file);
+		fillTeams(season);
 	}
 	
-	private void fillTeams(File file){
+	private void fillTeams(){
+		teams.add()
+	}
+	
+	private WeekInfo fillTeamsByWeek(int week){
 		// TOTAL
 		int totalPosition;
 		int totalPlayedGames;
@@ -50,39 +55,46 @@ public class SeasonInfo {
 		int awayPoints;
 				
 		try {
-			int week;
-			WeekInfo weekInfo;
+			WeekInfo weekInfo, weekBefore;
 			HashMap<Integer, WeekInfo> teamInfo;
+			String path;
+			if (week < 10) {
+				path = "./data/seasons/" + season + "/" + season + "_J0" + week + ".txt";
+			} else {
+				path = "./data/seasons/" + season + "/" + season + "_J" + week + ".txt";
+			}
+			File file = new File(path);
 			FileReader fr = new FileReader(file);
 			BufferedReader br = new BufferedReader(fr);
 			StringTokenizer st;
-			String line = "", token;
+			String line = br.readLine(), token, teamName;
 			
-			line = br.readLine();
-			st = new StringTokenizer(line);
-			// Discard the season
-			token = st.nextToken();
-			// Discard the division
-			token = st.nextToken();
-			// Save the week
-			week = Integer.valueOf(st.nextToken());
+			while (line != null) {
+				st = new StringTokenizer(line);
+				// Discard the season
+				token = st.nextToken();
+				// Discard the division
+				token = st.nextToken();
+				// Save the week
+				week = Integer.valueOf(st.nextToken());
+				teamName = st.nextToken();
+				weekBefore = teams.get(teamName).get(week - 1);
+				
+				weekInfo = new WeekInfo(totalPosition, totalPlayedGames, totalWinnedGames, 
+						totalDrawedGames, totalLostGames, totalScoredGoals, totalReceivedGoals, 
+						totalPoints, homePosition, homePlayedGames, homeWinnedGames, homeDrawedGames, 
+						homeLostGames, homeScoredGoals, homeReceivedGoals, homePoints, awayPosition, 
+						awayPlayedGames, awayWinnedGames, awayDrawedGames, awayLostGames, awayScoredGoals, 
+						awayReceivedGoals, awayPoints);
+				
+				line = br.readLine();
+			}
 			
-			weekInfo = new WeekInfo(totalPosition, totalPlayedGames, totalWinnedGames, 
-					totalDrawedGames, totalLostGames, totalScoredGoals, totalReceivedGoals, 
-					totalPoints, homePosition, homePlayedGames, homeWinnedGames, homeDrawedGames, 
-					homeLostGames, homeScoredGoals, homeReceivedGoals, homePoints, awayPosition, 
-					awayPlayedGames, awayWinnedGames, awayDrawedGames, awayLostGames, awayScoredGoals, 
-					awayReceivedGoals, awayPoints);
-			teamInfo = new HashMap<Integer, WeekInfo>();
+			return weekInfo;
 			
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
-		
-	}
-	
-	public TeamInfo getTeamClasification(int week, String team){
-		return weeks.get(week).get(team);
+		}		
 	}
 }
 

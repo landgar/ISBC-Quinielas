@@ -1,0 +1,11 @@
+2006-2007    2      42     Murcia           Tenerife         1-4
+2006-2007    2      42     Almeria          Vecindario       3-0
+2006-2007    2      42     Cadiz            MadridB    3-3
+2006-2007    2      42     Castellon        Malaga           0-1
+2006-2007    2      42     Hercules         Elche            0-2
+2006-2007    2      42     Alaves           Ponferradina     1-2
+2006-2007    2      42     Albacete         Lorca            1-0
+2006-2007    2      42     Numancia         Valladolid       1-2
+2006-2007    2      42     Sporting   Xerez            2-1
+2006-2007    2      42     Palmas       Ejido            0-2
+2006-2007    2      42     Salamanca        Granada74       1-0

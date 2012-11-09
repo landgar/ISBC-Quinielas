@@ -1,0 +1,11 @@
+2011-2012    2      40     Girona           Cordoba          3-1
+2011-2012    2      40     Murcia           Nastic  2-2
+2011-2012    2      40     Celta            Alcoyano         4-0
+2011-2012    2      40     Elche            Guadalajara      2-3
+2011-2012    2      40     Almeria          Alcorcon         2-0
+2011-2012    2      40     Valladolid       Sabadell         2-0
+2011-2012    2      40     Numancia         BarcelonaB      3-0
+2011-2012    2      40     Palmas       Hercules         2-0
+2011-2012    2      40     Xerez            Depor   3-2
+2011-2012    2      40     Huesca           Cartagena        1-0
+2011-2012    2      40     VillarrealB     Huelva      2-0

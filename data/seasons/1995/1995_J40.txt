@@ -1,0 +1,11 @@
+1995-1996    1      40     RealSociedad    Albacete         8-1
+1995-1996    1      40     Santander   Tenerife         1-2
+1995-1996    1      40     Atleti       Salamanca        2-1
+1995-1996    1      40     Sporting   Compostela       2-1
+1995-1996    1      40     Sevilla          Valencia         1-2
+1995-1996    1      40     Espanyol         Barcelona        1-1
+1995-1996    1      40     Celta            Betis            2-0
+1995-1996    1      40     Depor   Oviedo           0-4
+1995-1996    1      40     Valladolid       Madrid      0-3
+1995-1996    1      40     Merida           Rayo   0-1
+1995-1996    1      40     Zaragoza         Bilbao      1-0
